@@ -14,13 +14,10 @@ const FeaturedBlog = () => {
           </h3>
           <div className="blog-hover bg-gradient-to-r from-pink to-purple border mt-10 border-gray-200 rounded-lg p-8 md:p-12 mb-8">
             <h2 className="text-black text-3xl font-simibold mb-2">
-              Lorem ipsum is simply dummy text
+              Kenapa Harus Kerupuk Kulit Sapi Asli?
             </h2>
             <p className="text-lg  text-black opacity-60 mb-6">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              Kerupuk kulit sapi asli, camilan tradisional khas Indonesia yang dibuat dari kulit sapi pilihan. Renyah, gurih, tanpa bahan pengawet, dan cocok untuk segala suasana. Nikmati kelezatan alami setiap gigitan!
             </p>
             <a
               href="/blog/blog-post"
@@ -47,13 +44,10 @@ const FeaturedBlog = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="blog-hover bg-white rounded-lg p-8 md:p-12">
               <h2 className="text-gray-900 text-3xl font-simibold mb-2">
-                Lorem ipsum is simply dummy text
+                Proses Pembuatan Kerupuk Kulit Sapi Asli
               </h2>
               <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+                Kerupuk kulit sapi asli kami diolah secara higienis dari bahan kulit sapi pilihan, melalui proses tradisional dan modern untuk menghasilkan tekstur super renyah dan rasa gurih alami.
               </p>
               <a
                 href="/blog/blog-post-1"
@@ -79,13 +73,10 @@ const FeaturedBlog = () => {
             </div>
             <div className="blog-hover bg-white rounded-lg p-8 md:p-12">
               <h2 className="text-gray-900 text-3xl font-simibold mb-2">
-                Lorem ipsum is simply dummy text
+                Manfaat & Kelezatan Kerupuk Kulit Sapi Asli
               </h2>
               <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
+                Selain lezat dan gurih, kerupuk kulit sapi asli juga mengandung protein dan cocok dijadikan camilan sehat keluarga. Tersedia dalam berbagai ukuran kemasan sesuai kebutuhan Anda.
               </p>
               <a
                 href="/blog/blog-post-2"

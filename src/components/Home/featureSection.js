@@ -2,7 +2,7 @@ import React from "react"
 import Fade from "react-reveal/Fade"
 
 // Assets
-import HeroImage from "../../images/holographic-background-1.webp"
+import HeroImage from "../../images/kerupuk-1.webp"
 import Image1 from "../../images/3D-liquid-abstract-1.webp"
 import Image2 from "../../images/3D-liquid-abstract.webp"
 import Image3 from "../../images/3D-liquid-abstract-3.webp"
@@ -13,21 +13,21 @@ const FeatureSection = () => {
       <Fade bottom cascade>
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row content-center justify-center align-middle text-center">
           <div className="w-1/3 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-black text-2xl">Performance</h3>
-            <h4 className="mt-10 text-black  opacity-70 text-xl">95+</h4>
+            <h3 className="text-black text-2xl">Gurih</h3>
+            <h4 className="mt-10 text-black  opacity-70 text-xl">Pake nanya!</h4>
           </div>
 
           <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Accessibility</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
+            <h3 className="text-white text-2xl">Keriuk</h3>
+            <h4 className="mt-10 text-white opacity-70 text-xl">Oh jelas</h4>
           </div>
           <div className="w-1/3 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-1/3">
-            <h3 className="text-white text-2xl">Best Practices</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
+            <h3 className="text-white text-2xl">Tanpa bahan pengawet</h3>
+            <h4 className="mt-10 text-white opacity-70 text-xl">Aseli cuy</h4>
           </div>
           <div className="lg:rounded-xl lg:w-1/3 lg:bg-dp bg-dp p-8 rounded-xl m-5 xxs:w-full xxs:bg-dp xxs:rounded-xl xs:w-full xs:bg-dp xs:rounded-xl sm:hidden md:hidden lg:block">
-            <h3 className="text-white text-2xl">SEO</h3>
-            <h4 className="mt-10 text-white opacity-70 text-xl">100</h4>
+            <h3 className="text-white text-2xl">Halal</h3>
+            <h4 className="mt-10 text-white opacity-70 text-xl">100%</h4>
           </div>
         </div>
       </Fade>
@@ -43,15 +43,13 @@ const FeatureSection = () => {
           </div>
 
           <div className="lg:w-1/2 sm:text-center lg:text-right flex flex-col justify-center">
-            <h2 className="text-black text-4xl font-semibold">PERFORMANCE</h2>
+            <h2 className="text-black text-4xl font-semibold">KENAPA MEMILIH KERUPUK KULIT SAPI ASLI?</h2>
             <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-              Time to unlock new speeds
+              Gurih, Renyah, dan Sehat Setiap Saat!
             </h3>
 
             <p className="mt-3 text-base text-black-70 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto lg:mr-0">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s.
+              Kerupuk kulit sapi asli, diolah secara higienis tanpa bahan pengawet. Renyah, gurih, dan cocok untuk camilan sehat keluarga atau teman makan Anda setiap hari.
             </p>
 
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-end">
@@ -95,21 +93,25 @@ const FeatureSection = () => {
         <div className="mt-10 flex flex-row justify-space xxs:flex-col xs:flex-col sm:flex-row">
           <div className="w-2/6 bg-gradient-to-r from-pink to-purple p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-2/6">
             <span className="text-black font-semibold font-montserrat text-4xl">
-              TECH STACK
+              KEUNGGULAN PRODUK
             </span>
             <div className="mt-5">
               <div>
-                <p className="text-black text-2xl">Gatsby 5+</p>
-                <p className="text-black opacity-50 text-sm">SSG and more...</p>
-              </div>
-              <div className="mt-5">
-                <p className="text-black text-2xl">React 18+</p>
-                <p className="text-black opacity-50 text-sm">Create more...</p>
-              </div>
-              <div className="mt-5">
-                <p className="text-black text-2xl">Tailwind CSS 3+</p>
+                <p className="text-black text-2xl">Bahan Kulit Sapi Pilihan</p>
                 <p className="text-black opacity-50 text-sm">
-                  A utility-first CSS
+                  Menggunakan kulit sapi asli berkualitas tinggi.
+                </p>
+              </div>
+              <div className="mt-5">
+                <p className="text-black text-2xl">Tanpa Bahan Pengawet</p>
+                <p className="text-black opacity-50 text-sm">
+                  Diproses secara higienis tanpa tambahan bahan kimia.
+                </p>
+              </div>
+              <div className="mt-5">
+                <p className="text-black text-2xl">Renyah & Gurih</p>
+                <p className="text-black opacity-50 text-sm">
+                  Tekstur super renyah dan rasa gurih alami khas kerupuk kulit sapi.
                 </p>
               </div>
             </div>
@@ -117,19 +119,10 @@ const FeatureSection = () => {
 
           <div className="w-4/6 bg-dp p-8 rounded-xl m-5 xxs:w-full xs:w-full sm:w-4/6">
             <h2 className="text-white text-4xl">
-              Start building amazing web experiences
+              Kelezatan Kerupuk Kulit Sapi Asli
             </h2>
             <p className="mt-10 text-white opacity-70">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+              Setiap kerupuk kulit sapi asli kami dibuat dari kulit sapi pilihan, diolah secara higienis tanpa bahan pengawet. Rasakan kerenyahan dan gurihnya yang khas, cocok untuk camilan maupun pelengkap hidangan favorit keluarga Anda.
             </p>
           </div>
         </div>
@@ -137,41 +130,25 @@ const FeatureSection = () => {
 
       <div className="mt-10 px-8">
         <h2 className="text-black text-4xl font-semibold opacity-70">
-          OPEN SOURCE
+          PRODUK UNGGULAN KAMI
         </h2>
         <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-          A React based framework
+          Kerupuk Kulit Sapi Asli, Favorit Keluarga Indonesia
         </h3>
         <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          Kami menghadirkan kerupuk kulit sapi asli yang gurih, renyah, dan sehat. Diproses tanpa bahan pengawet, halal, serta cocok untuk camilan maupun pelengkap hidangan keluarga Anda.
         </p>
       </div>
 
       <div className="mt-10 px-8">
         <h2 className="text-black text-4xl font-semibold opacity-70">
-          INTEGRATIONS
+          SIAP KIRIM KE SELURUH INDONESIA
         </h2>
         <h3 className="text-black text-6xl font-bold xxs:text-2xl xs:text-3xl sm:text-5xl lg:text-6xl text-gradient bg-gradient-to-r from-pink to-purple">
-          Discover and connect
+          Pesan Sekarang, Nikmati Kerenyahannya!
         </h3>
         <p className="text-black opacity-70 font-normal mt-3 text-xs xxs:text-xs xs:text-xs sm:text-xs md:text-sm lg:text-lg">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+          Kerupuk kulit sapi asli kami tersedia dalam berbagai ukuran kemasan dan siap dikirim ke seluruh Indonesia. Hubungi kami untuk pemesanan grosir maupun eceran.
         </p>
         <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
           <div className="rounded-md">
@@ -179,7 +156,7 @@ const FeatureSection = () => {
               href="/contact/"
               className="transition-all duration-500ms ease-in-out hover:ease-in-out w-full flex items-center justify-center px-8 py-3 text-base font-medium rounded-md text-center bg-purple text-white hover:text-black border border-purple hover:bg-transparent md:text-lg md:px-10"
             >
-              Send Enquiry
+              Hubungi Kami
             </a>
           </div>
         </div>
